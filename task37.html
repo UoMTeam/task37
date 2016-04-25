@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task37</title>
+</head>
+<body>
+<style rel="stylesheet">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .mainbody {
+        display: block;
+        height: 1000px;
+        width: 100%;
+        z-index: 1001;
+        background-color: white;
+        color: black;
+    }
+    .show{
+        -moz-opacity: 0.5;
+        opacity: .50;
+        filter: alpha(opacity=50);
+    }
+    #show {
+        display: none;
+        position: fixed;
+        top: 35%;
+        left: 35%;
+        width: 400px;
+        height: 300px;
+        border:1px solid black;
+        background-color: white;
+        z-index: 1002;
+        overflow: auto;
+    }
+
+    #showTop {
+        width: 400px;
+        height: 60px;
+        background: red;
+    }
+
+</style>
+<script type="text/javascript">
+
+    function onShow(){
+        event.stopPropagation();
+        var oMainbody=document.getElementsByClassName("mainbody")[0];
+        oMainbody.className="mainbody show";
+        var oShow = document.getElementById("show");
+        oShow.top=(document.body.clientHeight-oShow.height)/2;
+        oShow.left=(document.body.clientWidth-oShow.width)/2;
+        oShow.style.display="block";
+    }
+    function close(){
+        var oMainbody=document.getElementsByClassName("mainbody")[0];
+        var oShow = document.getElementById("show");
+        oMainbody.className="mainbody";
+        oShow.style.display="none";
+    }
+    window.onload = function(){
+        document.body.addEventListener("click",close,false);
+        document.getElementById("btn").addEventListener("click",onShow,false);
+        document.getElementById("btnclose").addEventListener("click",close,false);
+    }
+</script>
+<button value="点我" id="btn">点我</button>
+<div class="mainbody">
+    密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症<br>密集症
+    <div id="show">
+        <div id="showTop">
+            <button value="点我" id="btnclose">点我关闭</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
