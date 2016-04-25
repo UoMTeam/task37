@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbc656e-6942-47f1-a132-827c1a286ccd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task37.css" afterPath="$PROJECT_DIR$/task37.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task37.html" afterPath="$PROJECT_DIR$/task37.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task37.js" afterPath="$PROJECT_DIR$/task37.js" />
     </list>
@@ -30,28 +29,28 @@
       <file leaf-file-name="task37.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task37.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state vertical-scroll-proportion="-6.875">
+              <caret line="11" column="490" selection-start-line="11" selection-start-column="490" selection-end-line="11" selection-end-column="490" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task37.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="task37.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task37.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.125">
+            <state vertical-scroll-proportion="1.0731319">
               <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task37.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task37.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task37.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8039816">
-              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc;n#onShow#0" expanded="false" />
               </folding>
@@ -86,9 +85,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/task37.css" />
         <option value="$PROJECT_DIR$/task37.js" />
         <option value="$PROJECT_DIR$/task37.html" />
-        <option value="$PROJECT_DIR$/task37.css" />
       </list>
     </option>
   </component>
@@ -253,12 +252,12 @@
       <created>1461572124185</created>
       <option name="number" value="Default" />
       <updated>1461572124185</updated>
-      <workItem from="1461572125927" duration="12025000" />
+      <workItem from="1461572125927" duration="12581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12025000" />
+    <option name="totallyTimeSpent" value="12581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -296,29 +295,29 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/task37.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc;n#onShow#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task37.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="490" selection-start-line="11" selection-start-column="490" selection-end-line="11" selection-end-column="490" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task37.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.125">
+        <state vertical-scroll-proportion="1.0731319">
           <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task37.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8039816">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc;n#onShow#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
